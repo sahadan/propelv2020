@@ -31,7 +31,7 @@ public class HelloServlet extends HttpServlet {
 		
 		response.setContentType("text/html");  
   		PrintWriter out = response.getWriter();  
-        out.print("<br>welcome to Register<br>");  
+        out.print("<br>welcome to Register : Second commit<br>");  
         
         String actionValue = request.getParameter("action");
 		try {
